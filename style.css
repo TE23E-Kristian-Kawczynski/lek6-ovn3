@@ -1,0 +1,67 @@
+body{
+    display: grid;
+    background-color: #e6bec8;
+}
+.box-grid{
+    display: grid;
+    grid-template-columns: 15fr 85fr;
+    grid-row: 30vh 80vh 30vh;
+    gap: 10px;
+}
+
+.bild{
+    width: 10fr;
+    height: 20vh;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#länkrubrik{
+    text-align: center;
+}
+
+.rubrik{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+
+.artikel{
+    text-align: center;
+}
+.länkar{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.artikel{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.text{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+#text1{
+    margin-bottom: 5px;
+}
+#text2{
+    margin-bottom: 5px;
+}
+.mail{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding-bottom: 80px;
+}
